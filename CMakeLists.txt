@@ -126,8 +126,3 @@ include(cmake/ChoreonoidCorbaBuildFunctions.cmake)
 find_package(fmt REQUIRED)
 
 add_subdirectory(src)
-
-message(STATUS ${CHOREONOID_OMNIORB_DIR})
-message(STATUS ${CHOREONOID_OMNIORB_BINARY_DIR})
-message(STATUS ${CHOREONOID_OMNIORB_LIBRARIES})
-message(STATUS ${CHOREONOID_CORBA_LIBRARIES})
